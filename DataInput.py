@@ -89,7 +89,7 @@ class DataBase():
 if __name__ == "__main__":
 #test module
     db = DataBase()
-    db.setFilePath("Chatbot.xlsx")
+    db.setFilePath("Data.xlsx")
     db.readFile()
     # db.displayFile()
     df = db.getDataFrame()

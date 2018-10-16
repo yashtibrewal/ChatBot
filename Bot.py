@@ -14,7 +14,7 @@ class Bot():
         self.location = None  # compulsory
         self.language = None
         self.db = DataBase()
-        self.db.setFilePath("Chatbot.xlsx")
+        self.db.setFilePath("Data.xlsx")
         self.db.readFile()
         self.df = self.db.getDataFrame()
 
